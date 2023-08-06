@@ -2,14 +2,21 @@
 
 body
   {
-    background-color: rgb(159, 200, 238);
     
+    background-image: linear-gradient(to right, red , orange);
   }
+ 
   h1 
   {
     color: white;
     text-align: center;
-    font-family: 'Algerian';
+    font-family: 'Brush Script MT';
+  }
+  h2 
+  {
+    color: white;
+    text-align: left;
+    font-family: 'MV Boli';
   }
   nav ul 
   {
@@ -27,13 +34,29 @@ body
     margin-inline-end: 0px;
     padding-inline-start: 40px;
   }
-  
+  nav ul li 
+  {
+    display: inline-block;
+    margin-right: 2em;
+    font-size: 1em;
+  }
 
   p {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    font-family: 'Courier New', Courier, monospace ;
+    margin-top: 20;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-family: 'Segoe Script' ;
     font-size: 20px;
   }
+  img
+   {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: 'Ink Free' ;
+    font-size: 20px;
+    max-width: 100%;
+    height: auto;
+   }
